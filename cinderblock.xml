@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="librealsense"
+	id="org.libcinder.librealsense"
+	author="Cinder Project"
+	license="BSD"
+	summary="librealsense Support for Cinder, test on Mac OS X."
+	core="true"
+	>
+	<supports os="macosx" />
+	<headerPattern>include/*.h</headerPattern>
+	<headerPattern>include/*.hpp</headerPattern>
+	<platform os="macosx">
+		<dynamicLibrary>lib/osx/librealsense.1.12.1.dylib</dynamicLibrary>
+	</platform>
+</block>
+</cinder>
